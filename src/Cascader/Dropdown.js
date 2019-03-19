@@ -349,9 +349,9 @@ class Dropdown extends React.Component<Props, State> {
 
   handleSearch = (searchKeyword: string, event: DefaultEvent) => {
     const { onSearch } = this.props;
-    this.setState({
-      searchKeyword
-    });
+//     this.setState({
+//       searchKeyword
+//     });
     onSearch && onSearch(searchKeyword, event);
   };
 
